@@ -1,7 +1,7 @@
 import torch
 from torch.distributions import Normal
 
-from NetWork import NetWork
+from Network import NetWork
 import numpy as np
 
 

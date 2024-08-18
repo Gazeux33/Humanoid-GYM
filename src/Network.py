@@ -4,9 +4,9 @@ import torch
 
 class NetWork(nn.Module):
 
-    def __init__(self, obs_space_dims: int, action_space_dims: int):
-        super().__init__()
+    def __init__(self, obs_space_dims: int, action_space_dims: int, *args, **kwargs):
 
+        super().__init__(*args, **kwargs)
         hidden_space1 = 512
         hidden_space2 = 1024
         hidden_space3 = 2048
